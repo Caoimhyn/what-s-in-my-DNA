@@ -11,12 +11,12 @@ from PIL import Image
 # Page Title
 ######################
 
-image = Image.open('dna-logo.jpg')
+image = Image.open('dna-logo.png')
 
 st.image(image, use_column_width=True)
 
 st.write("""
-# DNA Nucleotide Count Web App
+# What's in my DNA ?
 
 This app counts the nucleotide composition of query DNA!
 
